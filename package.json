@@ -1,0 +1,22 @@
+{
+  "name": "nextjs_hp",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "next build && next export",
+    "serve": "yarn export && serve ./out"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.1.0",
+    "contentful": "^8.4.2",
+    "next": "10.0.4",
+    "postcss": "^8.2.1",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-markdown": "^6.0.3",
+    "tailwindcss": "^2.0.2"
+  }
+}
